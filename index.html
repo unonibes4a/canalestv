@@ -1,8 +1,7 @@
 <!DOCTYPE html>
 <html>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
   <style>
+
 #idtodo{
 
 position: absolute;
@@ -11,20 +10,32 @@ left: 0%;
 width: 100%;
 height: 100%;
 }
+#idiframe{
+  position: absolute;
+top: 0%;
+left: 0%;
+width: 100%;
+height: 100%;
+z-index: 2;
+}
+
+#idblock{
+  position: absolute;
+top: 0%;
+left: 0%;
+width: 100%;
+height: 100%;
+z-index: 3;
+}
   </style>
-<body >
+<body>
 
 <div id="idtodo">
 
+  <div id="idblock"></div>
+<iframe id="idiframe" src="https://soloveo.com/espn2hd.php">
 
-  <script>
-
-
-window.location="http://futboltv-envivo.com/espn-2-en-vivo/"; 
-
-
-  </script>
-
+</iframe>
 </div>
 </body>
 </html>
